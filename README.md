@@ -38,3 +38,12 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 <!-- <p>&#169; Wiley Publishing, 2011</p>
 </body>
 </html>
+
+function init() {
+ Tabletop.init( { key: ‘1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE',
+ callback: function(data, tabletop) { xSFE
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
