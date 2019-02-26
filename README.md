@@ -40,7 +40,7 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 </html>
 
 function init() {
- Tabletop.init( { key: ‘1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE',
+ Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/',
  callback: function(data, tabletop) { xSFE
  console.log(data)
  },
