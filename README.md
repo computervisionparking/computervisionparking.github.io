@@ -39,6 +39,26 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 </body>
 </html>
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+<script type='text/javascript'>    
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/pubhtml';
+
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert('Successfully processed!')
+    console.log(data);
+  }
+
+  window.addEventListener('DOMContentLoaded', init)
+</script>
+
+<!-- And add a copyright notice.-->
+
 function init() {
  Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/',
  callback: function(data, tabletop) { xSFE
@@ -47,3 +67,5 @@ function init() {
  simpleSheet: true } )
 }
 window.addEventListener(‘DOMContentLoaded’, init)
+
+
