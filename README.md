@@ -1,9 +1,6 @@
 
 <html>
-<p>made by:
-<p>Elliot Tomasello	Ganesh Thaker
-<p>Allan Phung	Luke Ramoutar
-<p>Saulo Olvera	Dhruve Patel
+
 
 
 
@@ -20,6 +17,12 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 <!-- The information between the BODY and /BODY tags is displayed.-->
 <body>
 <h1>Computer Vision Parking.</h1>
+  
+<p>made by:
+<p>Elliot Tomasello	Ganesh Thaker
+<p>Allan Phung	Luke Ramoutar
+<p>Saulo Olvera	Dhruve Patel
+
 <p>Testing <b>bold</b> command. Put them in a list: </p>
 <ul>
 <li>The first item in your list</li>
