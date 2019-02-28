@@ -14,6 +14,8 @@ var tabletop = Tabletop.init({
 <script type='text/javascript'>    
   var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/pubhtml';
 
+https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit?usp=sharing
+
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
