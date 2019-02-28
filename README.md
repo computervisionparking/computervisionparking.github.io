@@ -27,6 +27,7 @@
 
 <!DOCTYPE html>
 <html>
+  
   <body>
 
     <p id="food"></p>
@@ -34,6 +35,11 @@
     <script type="text/javascript" src="../../src/tabletop.js"></script>
     <script type="text/javascript">
       var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit?usp=sharing';
+
+var tabletop = Tabletop.init({ 
+  key: '1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE', 
+  callback: showInfo 
+})
 
       function init() {
         Tabletop.init( { key: 1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE,
