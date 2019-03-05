@@ -20,5 +20,24 @@ Break up your page with a horizontal rule or two. </p>
 <p>Finally, link to <a href="page2.html">another page</a> in your own Web site.</p>
 
 <p>&#169; ComputerVisionParking, 2019</p>
+
+function init() {
+ Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit#gid=0',
+ callback: function(data, tabletop) { 
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
+
+function init() {
+ Tabletop.init( { key: ‘1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE',
+ callback: function(data, tabletop) { 
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
+
 </body>
 </html>
