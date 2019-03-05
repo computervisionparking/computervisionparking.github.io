@@ -12,12 +12,12 @@
 <li>The second item; <i>italicize</i> key words</li>
 </ul>
 <p>Improve your image by including an image. </p>
-<p><img src="http://www.mygifs.com/CoverImage.gif" alt="A Great HTML Resource"></p>
+<p><img src="https://media.giphy.com/media/rdtjIdBzqDD2w/giphy.gif" alt="A Great HTML Resource"></p>
 <p>Add a link to your favorite <a href="https://www.dummies.com/">Web site</a>.
 Break up your page with a horizontal rule or two. </p>
 <hr>
 <p>Finally, link to <a href="page2.html">another page</a> in your own Web site.</p>
 
-<p>&#169; Wiley Publishing, 2011</p>
+<p>&#169; ComputerVisionParking, 2019</p>
 </body>
 </html>
