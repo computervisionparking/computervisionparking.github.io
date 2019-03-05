@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Enter a title, displayed at the top of the window.</title>
+<title>Computer Vision Parking</title>
 </head>
 
 <body>
@@ -12,6 +12,7 @@
 <li>The second item; <i>italicize</i> key words</li>
 </ul>
 <p>Improve your image by including an image. </p>
+<p><img src="https://drive.google.com/file/d/13aXLrGpCWT9_VUmB3it7y3yYHhVrqgYi/view?usp=sharing" alt="A Great HTML Resource"></p>
 <p><img src="http://www.gifs-paradise.com/animations/animated-gifs-computers-75.gif" alt="A Great HTML Resource"></p>
 <p>Add a link to your favorite <a href="https://www.dummies.com/">Web site</a>.
 Break up your page with a horizontal rule or two. </p>
