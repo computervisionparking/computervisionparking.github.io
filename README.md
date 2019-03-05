@@ -1,105 +1,23 @@
-<p id="food"></p>
-
-<script type="text/javascript" src="../../src/tabletop.js"></script>
-<script type="text/javascript">
-  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit?usp=sharing';
-
-  function init() {
-    Tabletop.init( { key: 1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE,
-                     callback: showInfo,
-                     simpleSheet: true } );
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
-
-  function showInfo(data) {
-    // data comes through as a simple array since simpleSheet is turned on
-    alert("still working on it. " + data.length + " rows!")
-    document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
-    console.log(data);
-  }
-
-  document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
-</script>
-
-
-
-
-<!DOCTYPE html>
-<html>
-  
-  <body>
-
-    <p id="food"></p>
-
-    <script type="text/javascript" src="../../src/tabletop.js"></script>
-    <script type="text/javascript">
-      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit?usp=sharing';
-
-var tabletop = Tabletop.init({ 
-  key: '1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE', 
-  callback: showInfo 
-})
-
-      function init() {
-        Tabletop.init( { key: 1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE,
-                         callback: showInfo,
-                         simpleSheet: true } );
-      }
-
-      window.addEventListener('DOMContentLoaded', init)
-
-      function showInfo(data) {
-        // data comes through as a simple array since simpleSheet is turned on
-        alert("Successfully processed " + data.length + " rows!")
-        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
-        console.log(data);
-      }
-
-      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
-    </script>
-  </body>
-</html>
-
-
-
-
 <html>
 
+<head>
+<title>Enter a title, displayed at the top of the window.</title>
+</head>
 
+<body>
+<h1>Enter the main heading, usually the same as the title.</h1>
+<p>Be <b>bold</b> in stating your key points. Put them in a list: </p>
+<ul>
+<li>The first item in your list</li>
+<li>The second item; <i>italicize</i> key words</li>
+</ul>
+<p>Improve your image by including an image. </p>
+<p><img src="http://www.mygifs.com/CoverImage.gif" alt="A Great HTML Resource"></p>
+<p>Add a link to your favorite <a href="https://www.dummies.com/">Web site</a>.
+Break up your page with a horizontal rule or two. </p>
+<hr>
+<p>Finally, link to <a href="page2.html">another page</a> in your own Web site.</p>
 
-var tabletop = Tabletop.init({ 
-  key: '1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE', 
-  callback: showInfo 
-})
-
-
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-<script type='text/javascript'>    
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/pubhtml';
-
-
-  function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
-                     simpleSheet: true } )
-  }
-
-  function showInfo(data, tabletop) {
-    alert('Successfully processed!')
-    console.log(data);
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
-</script>
-
-
-
-
+<p>&#169; Wiley Publishing, 2011</p>
+</body>
 </html>
-
- 
- https://docs.google.com/spreadsheets/d/1kXDKj9emWwKn5DzXgH83uEOFzxsS06k-we05TGma1cE/edit?usp=sharing
-
- 
